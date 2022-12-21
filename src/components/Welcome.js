@@ -282,7 +282,7 @@ const Welcome = () => {
             </Form.Group>
             <Modal.Footer>
               <Button variant="danger" onClick={handleSubmit}>
-                REQUEST FOR ADOPTION
+                 REQUEST
               </Button>
             </Modal.Footer>
           </Form>
@@ -450,7 +450,7 @@ const Welcome = () => {
             </Form.Group>
             <Modal.Footer>
               <Button variant="danger" onClick={handleSubmit}>
-                REQUEST FOR GIVE AWAY
+                REQUEST
               </Button>
             </Modal.Footer>
           </Form>
