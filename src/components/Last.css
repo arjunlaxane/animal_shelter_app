@@ -1,0 +1,35 @@
+.container_3 {
+  padding: 2vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(212, 237, 241);
+  width: 90vw;
+}
+
+.container_3 > img {
+  width: 20vmax;
+  object-fit: contain;
+}
+
+#para_last {
+  margin-left: 2vmax;
+}
+
+@media screen and (max-width: 736px) {
+  .container_3 > img {
+    width: 25vmax;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container_3 {
+    margin-top: 1vmax;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_3 > img {
+    width: 25vmax;
+    margin-bottom: 1vmax;
+  }
+}

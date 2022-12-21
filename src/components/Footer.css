@@ -1,0 +1,145 @@
+.footer_container {
+  background-color: black;
+  color: white;
+  padding: 5vmax;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.animal_shelter,
+.getInTouch {
+  width: 20vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.quickLinks {
+  position: relative;
+  bottom: 3.5vmax;
+  display: flex;
+  flex-direction: column;
+}
+.quickLinks > a {
+  color: rgb(90, 83, 83);
+  text-decoration: none;
+  font-size: 1.5vmax;
+}
+.getInTouch-links {
+  display: flex;
+  align-items: flex-start;
+}
+
+.quickLinks > a {
+  margin-top: 1vmax;
+}
+.getInTouch-links > a {
+  margin-right: 2vmax;
+  color: rgb(90, 83, 83);
+  font-size: 2vmax;
+}
+
+.line {
+  border-top: 1px solid rgb(46, 44, 44);
+  position: relative;
+  top: 2vmax;
+}
+
+.copyRights > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 5vmax;
+}
+.animal_shelter > p,
+.copyRights > div:nth-child(1) > p {
+  color: rgb(90, 83, 83);
+}
+
+.copyRights > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+}
+
+.copyRights > div:nth-child(1) > div:nth-child(2) > p {
+  margin-right: 2vmax;
+  text-decoration: underline;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-title > img {
+  width: 4vmax;
+  height: 3vmax;
+  object-fit: contain;
+}
+span {
+  margin-bottom: 1vmax;
+  font-size: 1.5vmax;
+  font-weight: 600;
+}
+
+.getInTouch p {
+  color: rgb(90, 83, 83);
+}
+.getInTouch > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.getInTouch > div > span {
+  font-size: 1.9vmax;
+  margin-right: 0.8vmax;
+  color: white;
+}
+
+.iconStyle {
+  color: white;
+  font-size: 1.5vmax;
+  margin-right: 0.5vmax;
+}
+
+@media screen and (max-width: 950px) {
+  .footer_container,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer {
+    padding: 1vmax;
+  }
+  .animal_shelter,
+  .getInTouch {
+    margin-bottom: 5vmax;
+    width: 50vmax;
+  }
+  .animal_shelter,
+  .getInTouch,
+  .quickLinks {
+    width: 40vmax;
+  }
+
+  span {
+    font-size: 2.5vmax;
+  }
+  .iconStyle {
+    color: white;
+    font-size: 3vmax;
+    margin-right: 2vmax;
+  }
+
+  .copyRights > div:nth-child(1) > div:nth-child(2) {
+    display: none;
+  }
+}

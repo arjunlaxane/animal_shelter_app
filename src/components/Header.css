@@ -1,0 +1,70 @@
+#logo {
+  width: 8vmax;
+  height: 4vmax;
+  object-fit: contain;
+}
+
+#logo_title {
+  font-size: 2vmax;
+  font-weight: 600;
+}
+
+.title_Nav {
+  display: flex;
+  align-items: center;
+  margin-left: 1.2vmax;
+}
+
+.btn-links {
+  margin-left: 10vmax;
+}
+.btn-links > a {
+  font-size: 1.7vmax;
+}
+.btn-links > a:nth-child(1) {
+  color: black;
+  font-weight: 600;
+}
+
+.btn-links > a:nth-child(2) {
+  margin-left: 4vmax;
+  color: rgb(80, 75, 75);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-color {
+  background-color: rgb(212, 237, 241);
+}
+
+.connect {
+  position: absolute;
+  right: 10vmax;
+}
+
+.connect > a {
+  margin-right: 2vmax;
+  color: rgb(80, 75, 75);
+  font-size: 1.8vmax;
+}
+
+@media screen and (max-width: 768px) {
+  .canva-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .connect > a {
+    color: rgb(80, 75, 75);
+    font-size: 2vmax;
+  }
+
+  .btn-links > a:nth-child(2) {
+    margin-left: 0vmax;
+    margin-top: 2vmax;
+  }
+  .btn-links > a {
+    font-size: 2vmax;
+  }
+}
